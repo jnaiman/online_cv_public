@@ -50,9 +50,17 @@ See `_example_projects` folder for more examples from [portfolYOU](https://githu
 
 Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
 
+## Altair-saved chart json's
+
+By default these are saved in `assets/json/` and static images are saved in `assets/pngs/`.  See the example 
+
+
 ## Blog Posts
 
 All blog posts will be posted by most recent time stamp -- please see the example for a properly formatted file name.
+
+Add blog posts in:
+ * `_posts` (see example)
 
 You can see further examples in the `_example_posts` directory.
 
