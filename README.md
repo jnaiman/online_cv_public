@@ -29,6 +29,18 @@ Edit info in:
  1. _data/programming-skills.yml to update your your programming skills list
  1. _data/other-skills.yml to update other skills
  1. timeline.yml to update the timeline of your CV
+ 
+## Projects
+
+You can link both project pages and github repositories.  Github repos will autopopulate, pages allow you to provide more details.
+
+By default, the project pages go first, but you can modify this if you want any github repos to show up first.
+
+Project pages can be added by adding markdown files in the `_projects` folder.
+
+Project layouts can be modified in `_includes/projects`.
+
+See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
 
 
 ## Sources
@@ -37,6 +49,7 @@ This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/po
 
 [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) was used for:
  * overall style, taking off a few elements -- Blog, About, Projects all are included here
+ * also progress bars for skills are modified to contain words, not percentages
  
 [4dcu.be](https://github.com/4dcu-be/4dcu.be)
  * vega-lite additions -- found in the `_plugins` folder and the vega-added things in `assets/js`

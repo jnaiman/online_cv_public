@@ -1,5 +1,37 @@
-
 <div class="card-columns m-3 mt-5">
+
+  <!-- Local Projects -->
+  {% for project in site.projects %}
+
+    {%- assign project_type  = "local" -%}
+    {%- assign project_id    = project.name | slugify -%}
+
+    {%- if project.external_img -%}
+      {%- assign project_img = project.external_image -%}
+    {%- else -%}
+      {%- assign u = project.image | split: "projects/" -%}
+      {%- assign project_img = {{u[0]}} | relative_url -%}
+  {%- endif -%}
+  
+
+    {%- assign project_name  = project.name -%}
+    {%- assign project_desc  = project.description -%}
+    {%- assign project_tools = project.tools -%}
+
+    {%- if project.external_url -%}
+      {%- assign project_url = project.external_url -%}
+      {%- assign external    = true -%}
+    {%- else -%}
+      {%- assign project_url = project.url | relative_url -%}
+      {%- assign external    = false -%}
+    {%- endif -%}
+
+    {% include projects/project-card.html %}
+
+  {% endfor %}
+
+
+
 
   <!-- Remote Projects -->
   {% for remote_project in page.remote_projects %}
@@ -33,38 +65,4 @@
     {%- endfor -%}
 
   {% endfor %}
-
-
-
-
-  <!-- Local Projects -->
-  {% for project in site.projects %}
-
-    {%- assign project_type  = "local" -%}
-    {%- assign project_id    = project.name | slugify -%}
-
-    {%- if project.external_img -%}
-      {%- assign project_img = project.external_image -%}
-    {%- else -%}
-      {%- assign u = project.image | split: "projects/" -%}
-      {%- assign project_img = {{u[0]}} | relative_url -%}
-  {%- endif -%}
-  
-
-    {%- assign project_name  = project.name -%}
-    {%- assign project_desc  = project.description -%}
-    {%- assign project_tools = project.tools -%}
-
-    {%- if project.external_url -%}
-      {%- assign project_url = project.external_url -%}
-      {%- assign external    = true -%}
-    {%- else -%}
-      {%- assign project_url = project.url | relative_url -%}
-      {%- assign external    = false -%}
-    {%- endif -%}
-
-    {% include projects/project-card.html %}
-
-  {% endfor %}
-
 </div>
