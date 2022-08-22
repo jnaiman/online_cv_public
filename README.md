@@ -1,3 +1,16 @@
+# How to use this page
+
+## About page
+
+Edit info in:
+ 1. pages/about.md for your general introduction
+ 1. _data/programming-skills.yml to update your your programming skills list
+ 1. _data/other-skills.yml to update other skills
+ 1. timeline.yml to update the timeline of your CV
+
+
+# ------------- Old ramblings below -------------
+
 # Info for how this was created
 
 1. Start by searching for Jeykll themes: https://github.com/topics/jekyll-theme
