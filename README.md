@@ -32,6 +32,10 @@ Edit info in:
  
 ## Projects
 
+Add project files in: 
+ * `_projects` to add page files
+ * `pages/projects.html` under `remote_projects` for links to your github projects.  Note: this will ONLY link to your repos and you must specify the end of your repo URL (see example)
+
 You can link both project pages and github repositories.  Github repos will autopopulate, pages allow you to provide more details.
 
 By default, the project pages go first, but you can modify this if you want any github repos to show up first.
@@ -41,6 +45,16 @@ Project pages can be added by adding markdown files in the `_projects` folder.
 Project layouts can be modified in `_includes/projects`.
 
 See `_example_projects` folder for more examples from [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU).
+
+## Python notebooks
+
+Generally, you will be linking notebooks that exist in other repositories that are doing analysis.  However for any "loose" notebooks, you can store them in the `python_notebooks` folder.  In theory you can do fancy local linking with it, but it hasn't been implemented yet.
+
+## Blog Posts
+
+All blog posts will be posted by most recent time stamp -- please see the example for a properly formatted file name.
+
+You can see further examples in the `_example_posts` directory.
 
 
 ## Sources
