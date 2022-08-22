@@ -36,7 +36,11 @@ Edit info in:
 This is an amalgamation of [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) and [4dcu.be](https://github.com/4dcu-be/4dcu.be).
 
 [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU) was used for:
- * 
+ * overall style, taking off a few elements -- Blog, About, Projects all are included here
+ 
+[4dcu.be](https://github.com/4dcu-be/4dcu.be)
+ * vega-lite additions -- found in the `_plugins` folder and the vega-added things in `assets/js`
+
 
 # ------------- Old ramblings below -------------
 
