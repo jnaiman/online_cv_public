@@ -8,7 +8,7 @@
 title               : Jill Naiman 
 description         : >-
                       I am definitely not a corgi!
-baseurl             : "online_cv_public"   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
+baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : jnaiman               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
