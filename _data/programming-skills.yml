@@ -4,11 +4,11 @@
   color: danger
 
 - name: Go
-  percentage: 80
-  level: Medium
+  percentage: 5
+  level: Beginner
   color:
 
 - name: Python
-  percentage: 70
-  level: Beginner
+  percentage: 90
+  level: Expert
   color: secondary
