@@ -36,6 +36,7 @@
   <!-- Remote Projects -->
   {% for remote_project in page.remote_projects %}
 
+  {% if site.github.private != true and site.github.license %}
    {%- for repo in site.github.public_repositories -%}
 
     {%- if remote_project == repo.name -%}
@@ -63,6 +64,8 @@
       {%- endif -%}
 
     {%- endfor -%}
+
+  {%- endif -%}
 
   {% endfor %}
 </div>
