@@ -46,7 +46,7 @@ Once we have that we can link using `vegachart` as per usual:
 
 # 2. From Vega-Specs to JSON with Altair in Python
 
-We start from just copying the specification from our [Starboard notebook](https://starboard.gg/jnaiman/inClass_week12_spring2022-nZa79A6) of previous weeks using the `from_dict` function in Altair.  With some judicious use of adding/subtracting quotation marks (we have to be a bit more careful with these in Python) we can recreate a simple histogram showing the count of records in our [Mobility dataset](https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/blob/main/data/mobility.csv) as a function of state:
+We start from just copying the specification from our [Starboard notebook](https://starboard.gg/jnaiman/inClass_week10_spring2023-nJGY2kn) of previous weeks using the `from_dict` function in Altair.  With some judicious use of adding/subtracting quotation marks (we have to be a bit more careful with these in Python) we can recreate a simple histogram showing the count of records in our [Mobility dataset](https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv) as a function of state:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart1.json" style="width: 100%"></vegachart>
 
@@ -59,7 +59,7 @@ We did this by saving our Altair chart as a JSON file in our assets folder in th
 
 # 3. Dashboard Building
 
-For more complex layouts and to support some interactivity and linking of data, we can start to making some of our plots more "Altair friendly".  For example, breaking our two dashboard plots from our prior [Starboard notebook](https://starboard.gg/jnaiman/inClass_week12_spring2022-nZa79A6) into to charts and then using the `Hconcat` function in Altair to put them side-by-side:
+For more complex layouts and to support some interactivity and linking of data, we can start to making some of our plots more "Altair friendly".  For example, breaking our two dashboard plots from our prior [Starboard notebook](https://starboard.gg/nb/n9nb6N8) into to charts and then using the `Hconcat` function in Altair to put them side-by-side:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/static_mobility.json" style="width: 100%"></vegachart>
 
