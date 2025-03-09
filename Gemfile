@@ -35,5 +35,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "rexml", ">= 3.3.2"
 
+# updates 2025 -- newer jekyll versions
+gem "csv"
+gem "base64"
+
 
 
