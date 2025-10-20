@@ -123,3 +123,4 @@ exclude:
   - "*.log"
   - "*.ipynb"
   - "python_notebooks/*"
+  - vendor
